@@ -9,7 +9,7 @@ const config = {
   title: 'Harpia Documentation',
   tagline: 'IT Incident management system',
   url: 'https://github.com',
-  baseUrl: '/harpia-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
