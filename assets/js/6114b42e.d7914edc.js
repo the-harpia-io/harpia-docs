@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharpia_docs=self.webpackChunkharpia_docs||[]).push([[9367],{4248:a=>{a.exports=JSON.parse('{"permalink":"/harpia-docs/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
