@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Harpia Documentation',
   tagline: 'IT Incident management system',
-  url: 'https://github.com',
+  url: 'https://docs.harpia.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
