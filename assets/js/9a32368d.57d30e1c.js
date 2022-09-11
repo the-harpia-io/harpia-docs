@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharpia_docs=self.webpackChunkharpia_docs||[]).push([[2549],{5205:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/harpia-docs/blog/tags/facebook","allTagsPath":"/harpia-docs/blog/tags","count":1}')}}]);
