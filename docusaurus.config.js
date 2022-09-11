@@ -40,13 +40,13 @@ const config = {
           editUrl:
             'https://github.com/the-harpia-io/harpia-docs/tree/master/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/the-harpia-io/harpia-docs/tree/master/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/the-harpia-io/harpia-docs/tree/master/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Harpia',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -70,7 +70,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/the-harpia-io/harpia-docs/tree/master/',
             label: 'GitHub',
@@ -110,10 +110,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/the-harpia-io/harpia-docs',
