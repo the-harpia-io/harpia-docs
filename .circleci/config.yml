@@ -1,0 +1,36 @@
+version: 2.1
+
+workflows:
+  my-workflow:
+    jobs:
+      - build:
+          context:
+            - Harpia
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:18.8.0
+    working_directory: ~/workspace
+#    environment:
+#      SERVICE_NAME: harp-docs
+#      SERVICE_VERSION: v1.0.0
+#      SERVICE_NAMESPACE: dev
+    steps:
+      - checkout
+#      - setup_remote_docker
+      - run:
+          name: Deploy documentation to GitHub Pages
+          command: GIT_USER=the.harpia.io yarn deploy
+      - run:
+          name: Clone repo
+          command: git clone https://github.com/the-harpia-io/harpia-docs.git & cd harpia-docs
+      - run:
+          name: Switch branch
+          command: git checkout gh-pages
+      - run:
+          name: Create CNAME file
+          command: touch CNAME && echo "docs.harpia.io" > CNAME
+      - run:
+          name: Commit CNAME file
+          command: git add && git commit -m "DESCRIBE COMMIT IN A FEW WORDS" && git push -u origin gh-pages
