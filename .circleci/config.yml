@@ -15,6 +15,10 @@ jobs:
     steps:
       - checkout
       - run:
+          command: git config --global user.email "the.harpia.io@gmail.com"
+      - run:
+          command: git config --global user.name "the.harpia.io"
+      - run:
           name: Yarn install
           command: yarn install
       - run:
