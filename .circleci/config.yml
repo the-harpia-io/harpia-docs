@@ -10,15 +10,16 @@ workflows:
 jobs:
   build:
     docker:
-      - image: cimg/node:18.8.0
+      - image: cimg/node:19.4.0
     working_directory: ~/workspace
-#    environment:
-#      SERVICE_NAME: harp-docs
-#      SERVICE_VERSION: v1.0.0
-#      SERVICE_NAMESPACE: dev
     steps:
       - checkout
-#      - setup_remote_docker
+      - run:
+          name: Yarn install
+          command: yarn install
+      - run:
+          name: yarn run build
+          command: yarn run build
       - run:
           name: Deploy documentation to GitHub Pages
           command: GIT_USER=the.harpia.io yarn deploy
