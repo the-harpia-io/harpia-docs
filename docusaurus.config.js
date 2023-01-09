@@ -6,6 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  plugins: [
+    [require.resolve('@easyops-cn/docusaurus-search-local'), {hashed: true}],
+    require.resolve('docusaurus-plugin-image-zoom'),
+  ],
   title: 'Harpia Documentation',
   tagline: 'IT Incident management system',
   url: 'https://github.com',
@@ -57,6 +61,24 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          'http-equiv': 'Cache-Control',
+          content: 'no-cache, no-store, must-revalidate',
+        },
+        {'http-equiv': 'Pragma', content: 'no-cache'},
+        {'http-equiv': 'Expires', content: '0'},
+      ],
+      zoom: {
+        selector: '.markdown img',
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+          background: {
+            light: 'rgb(255, 255, 255)',
+            dark: 'rgb(50, 50, 50)'
+          }
+        }
+      },
       navbar: {
         title: 'Harpia',
         logo: {
@@ -124,9 +146,21 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Harpia.io. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/dracula'),
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java', 'json', 'csharp'],
       },
+      docs: {
+        sidebar: {
+          hideable: false,
+          autoCollapseCategories: true,
+        },
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      }
     }),
 };
 
