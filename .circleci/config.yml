@@ -10,7 +10,7 @@ workflows:
 jobs:
   build:
     docker:
-      - image: cimg/node:19.4.0
+      - image: cimg/node:19.3.0
     working_directory: ~/workspace
     steps:
       - checkout
