@@ -1,0 +1,8 @@
+{
+  "label": "Incoming Integrations",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "This article will describe how you can connect your monitoring systems to Harp"
+  }
+}

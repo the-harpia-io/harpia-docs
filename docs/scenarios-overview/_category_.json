@@ -1,0 +1,8 @@
+{
+  "label": "Harp Scenarios",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Harp scenarios will allow you to specify the channels (NOC, Email, Slack etc..) where alerts should appear, who should receive it, order and delay"
+  }
+}
