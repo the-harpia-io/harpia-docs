@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharpia_docs=self.webpackChunkharpia_docs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Open Sourcing Incident Management system","permalink":"/blog/open-sourcing-incident-management-system"}]}')}}]);

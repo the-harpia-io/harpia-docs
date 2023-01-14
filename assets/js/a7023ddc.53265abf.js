@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharpia_docs=self.webpackChunkharpia_docs||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"monitoring","permalink":"/blog/tags/monitoring","count":1},{"label":"open-source","permalink":"/blog/tags/open-source","count":1}]')}}]);
