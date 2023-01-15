@@ -5,6 +5,8 @@ authors: mykola.k
 tags: [monitoring, open-source]
 ---
 
+![img.png](image.jpg)
+
 We are excited to announce that our incident management system is now open source! 
 
 Our incident management system is designed to help teams quickly and effectively respond to and resolve any incidents that may occur, specifically in the tech industry.
