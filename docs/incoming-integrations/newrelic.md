@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# New Relic
+# NewRelic
 
 New Relic is dedicated to making it easier for software engineers to instrument everything and better understand their digital systems
 

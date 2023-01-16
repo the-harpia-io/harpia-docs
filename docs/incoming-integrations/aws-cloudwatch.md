@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# AWS CloudWatch
+# CloudWatch
 
 Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application
 
