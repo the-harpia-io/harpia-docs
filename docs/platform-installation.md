@@ -6,12 +6,17 @@ sidebar_position: 8
 
 ## In Cloud (SaaS)
 
-Feel free to contact us directly if you need to have Harp Platform in Cloud
+You can easily request the new platform and receive it in few minutes
 
-How to contact:
-- **Email:** nikolay.k@harpia.io
-- **Linkedin:** https://www.linkedin.com/in/the-harpia-io
-- **GitHub Issue:** https://github.com/harpia-io/harpia/issues
+Go to the registration form - https://registration.harpia.io/
+
+You should specify:
+- `Owner Email`: you will receive access details once platform will be ready
+- `Company Name`: unique name of the company
+
+![img_62.png](img_62.png)
+
+After submitting the form - you will receive the email with description how to access your platform
 
 ## On your server
 
